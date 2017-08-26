@@ -90,8 +90,8 @@ public function store(Request $request)
     {
         $view = 'emails.confirm';
         $data = compact('user');
-        $from = 'aufree@yousails.com';
-        $name = 'Aufree';
+        $from = 'kranerblack@gmail.com';
+        $name = 'kraner';
         $to = $user->email;
         $subject = "感谢注册 Sample 应用！请确认你的邮箱。";
 
